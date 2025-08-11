@@ -3,7 +3,7 @@
     padding-top: 10px;
     padding-bottom: 10px; 
 }
-.navbar {
+.navbar{
     border-color: #6BC449 !important;
 }
 .nav-link:hover{
@@ -12,20 +12,6 @@
 #home .container {
     padding-top: 50px;
 }
-.custom-button-btn {
-    background-color: #6BC449 !important;
-    color: white !important;
-    border: none;
-    padding: 10px 25px;
-    font-weight: bold;
-}
-
-.custom-button-btn:hover {
-    background-color: #5aa83d !important;
-    color:white!important;
-}
-
-
 .phone-front {
     position: relative;
     z-index: 2;
@@ -47,14 +33,12 @@
     margin-top: 0 !important;
     padding-top: 54px;
 }
-
 #testimonials .row {
     margin-top: 0 !important;
 }
 .footer {
     background-color: black;
 }
-
 .footer .social-icons a {
     font-size: 20px;
     text-decoration: none;
@@ -94,5 +78,10 @@
 }
 .signup-card{
     width: 800px;
+}
+@media only screen and (max-width : 820px) {
+    .card{
+        width: 100% !important;
+    }
 }
 
