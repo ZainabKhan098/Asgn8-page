@@ -1,8 +1,9 @@
 .navbar{
     border-color: #6BC449 !important;
+    height: 60px;
 }
 .nav-link:hover{
- color: #6BC449;
+    color: #6BC449;
 }
 #home .container {
     padding-top: 50px;
@@ -25,6 +26,7 @@
 }
 .btn-success{
     background-color:  #6bc449;
+    border:none;
 }
 .head-line{
     font-weight: 900;
